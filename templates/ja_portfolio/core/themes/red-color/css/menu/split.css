@@ -1,0 +1,50 @@
+/*
+# ------------------------------------------------------------------------
+# JA Portfolio Template
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+*/
+
+#ja-splitmenu li.active a,
+#ja-splitmenu li.active a:hover,
+#ja-splitmenu li.active a:active,
+#ja-splitmenu li.active a:focus {
+	background-color: #db2c2c;
+}
+
+/* Sub Nav ---*/
+#ja-subnav .main {
+	background: #db2c2c;
+}
+
+#ja-subnav li {
+	border-right: 1px solid #B42424;
+}
+
+#ja-subnav li.hover, #ja-subnav li.active {
+	background: #525253;
+}
+
+#ja-subnav li a {
+	color: #fff;
+}
+
+#ja-subnav li a:hover,
+#ja-subnav li a:focus,
+#ja-subnav li a:active {
+	color: #fff !important;
+}
+
+#ja-subnav li.active a {
+	color: #fff !important;
+}
+
+/* Sub Nav (lv2) ---*/

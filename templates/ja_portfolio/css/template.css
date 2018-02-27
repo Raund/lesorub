@@ -1,0 +1,815 @@
+/*
+# ------------------------------------------------------------------------
+# JA Portfolio Template
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+*/
+
+/* COMMON STYLE
+--------------------------------------------------------- */
+body {
+	color: #525253;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body#bd { background: url(../images/bd-bg.jpg) #f5f6f7; color: #525253; }
+
+/* Normal links ---*/
+a { color: #5F9729; text-decoration: none; }
+
+a:hover, a:active, a:focus { text-decoration: underline; color: #525253; }
+
+/* Readon links ---*/
+p.readmore a {
+	background: url(../images/check_alt_12x12.png) no-repeat 5px 5px;
+	border: 1px solid transparent;
+	color: #525253;
+	display: block;
+	float: right;
+	font-size: 92%;
+	text-transform: uppercase;
+	padding: 3px 5px 3px 22px;
+}
+
+p.readmore a:hover,
+p.readmore a:focus,
+p.readmore a:active {
+	background-color: #f0f0f0;
+	border-color: #dedede;
+	color: #525253;
+	text-decoration: none;
+}
+
+/* Headings ---*/
+.contentheading, .componentheading, h1, h2, h3, h4, h5 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1.componentheading, .componentheading {
+	background: url(../images/noise-bg.png) #313435;
+	color: #f0f0f3;
+	padding: 10px 20px;
+	margin: 0 -20px;
+	font-size: 125%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h1.contentheading, h2.contentheading, .contentheading {
+	background: #f0f0f3;
+	padding: 10px 20px 5px;
+	margin: 0 -20px;
+	border-top: 1px solid #dedede;
+	font-weight: bold;
+}
+
+.contentheading { font-size: 200%; }
+
+h2.contentheading a { color: #313435; }
+
+h2.contentheading a:hover,
+h2.contentheading a:active,
+h2.contentheading a:focus { color: #5f9729; text-decoration: none; }
+
+.blog-featured .contentheading { font-size: 180%; }
+
+.jitem-title { font-size: 110%; font-weight: bold; }
+
+.contentpaneopen_edit {
+	position: absolute;
+}
+
+body.contentpane p {
+	margin: 10px 0;
+}
+
+/* Others ---*/
+hr { border-top: 1px solid #dedede; }
+
+/* FORM
+--------------------------------------------------------- */
+input, select, textarea, .inputbox {
+	padding: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputbox {
+	background: url(../images/grad-l1.gif) repeat-x bottom #fff;
+	border: 1px solid #caccce;
+}
+
+.inputbox:hover, .inputbox:focus { 	background: url(../images/grad-l1.gif) repeat-x bottom #fff; }
+
+.button {
+	background: url(../images/grad-d1.gif) repeat-x left bottom;
+	border: 1px solid #5f9729;
+	color: #fff;
+	font-weight: bold;
+	padding: 4px 6px;
+}
+
+.josForm .button {
+	padding: 2px;
+	font-weight: normal;
+	border: none;
+	line-height: 20px;
+	display: inline;
+	margin: 0 5px;
+}
+
+/* Search ---*/
+form#searchForm { border-top: 1px solid #dedede; }
+
+.searchintro { border-bottom: 1px solid #dedede; }
+
+.results h4 { text-transform: none; font-size: 110%; }
+
+/* Contact ---*/
+#component-contact #emailForm { border-top: 1px solid #dedede; padding-top: 15px; margin-top: 15px; }
+
+.contact_email .inputbox {
+	margin-bottom: 15px;
+}
+/* JOOMLA STYLE
+--------------------------------------------------------- */
+/* Layout Deco ---*/
+.items-leading {
+	padding-top: 0;
+}
+
+.items-leading .leading {
+	padding: 0 0 20px;
+}
+
+.items-leading .contentpaneopen {
+	padding: 0 20px;
+}
+
+.items-row {
+	padding-top: 0;
+	padding-bottom: 20px;
+	border-bottom: 0;
+}
+
+.article-content { overflow: visible; }
+
+.article-content ul li p {
+	margin: 0 ;
+}
+
+/* Meta ---*/
+div.article-tools {
+	background: #f0f0f3;
+	border-bottom: 1px solid #dedede;
+	padding: 0 20px 10px;
+	margin: 0 -20px 10px;
+	text-transform: uppercase;
+}
+
+dl.article-info { color: #88888a; margin: 0; }
+
+dl.article-info dd { margin: 0; }
+
+.contentdescription { background: #F0F0F3; border-top: 1px solid #DEDEDE; border-bottom: 1px solid #DEDEDE; margin: 0 -20px 20px -20px; }
+
+p.modifydate { font-size: 92%; color: #999; text-align: left; clear: both; }
+
+/*Inline images ---*/
+.img-border {
+	background: #fcfcfc;
+	border: 1px solid #dedede;
+	margin: 5px 15px 0 0;
+	padding: 4px;
+}
+
+p.img_caption { color: #999; text-transform: uppercase; }
+
+.jatc-images {
+	clear: both;
+}
+
+/* Tables ---*/
+thead tr th {
+	background: #313435;
+	color: #fff;
+	padding: 5px;
+}
+
+thead tr th a,
+thead tr th a:hover,
+thead tr th a:focus,
+thead tr th a:active { color: #fff; }
+
+.cat-list-row1,
+.cat-list-row12,
+tr.cat-list-row1 td,
+tr.cat-list-row2 td { border-bottom: 1px solid #dedede; padding: 5px; }
+
+.cat-list-row1:hover,
+.cat-list-row2:hover { background: #ffffcc; }
+
+.cat-list-row2,
+tr.cat-list-row2 td { background-color: #f6f6f6; }
+
+/* Content Toc */
+table.contenttoc { border: 1px solid #dedede; }
+
+table.contenttoc td { border-bottom: 1px dotted #dedede; }
+
+table.contenttoc th {
+	background: #f6f6f6;
+	border-bottom: 1px solid #dedede;
+	text-transform: uppercase;
+}
+
+/* Poll */
+form#poll {
+	border-bottom: 1px dotted #dedede;
+	font-weight: bold;
+}
+
+dl.poll { border-bottom: 1px dotted #dedede; }
+
+dl.poll dt {
+	width: 105px;
+}
+
+table.pollstableborder td {
+	background: #f6f6f6;
+	border-bottom: 1px solid #dedede;
+	font-weight: bold;
+	padding: 5px !important;
+}
+
+table.pollstableborder tr.sectiontableentry0 td,
+table.pollstableborder tr.sectiontableentry1 td { background: #fff; font-weight: normal; }
+
+/* Pagination ---*/
+.pagination li span,
+.pagination li strong { line-height: 20px; }
+
+.items-more { border-bottom: 1px solid #dedede; }
+
+.items-more h3 { font-size: 125%; }
+
+p.counter span {
+	background: #B7B7B7;
+	color: #fff;
+	padding: 2px 4px;
+	font-size: 92%;
+	font-weight: bold;
+}
+
+/* Feed ---*/
+.feed_description {
+	margin: 10px 0;
+}
+
+/* Message ---*/
+#system-message {
+	margin: 5px;
+}
+
+/* MODULE STYLES
+--------------------------------------------------------- */
+div.ja-moduletable, div.moduletable {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	padding: 0;
+	background: url(../images/grad-l1.gif) repeat-x bottom #fff;
+	border: 1px solid #dedede;
+}
+
+div.ja-moduletable h3, div.moduletable h3 {
+	font-size: 125%;
+	padding: 10px 15px;
+	color: #f0f0f3;
+	text-transform: uppercase;
+	background: url(../images/noise-bg.png) #313435;
+}
+
+div.ja-moduletable .ja-box-ct h3, div.moduletable .ja-box-ct h3 {
+	font-size: 100%;
+	padding: 0;
+	color: #525253;
+	text-transform: none;
+	background: none;
+}
+
+div.ja-moduletable .ja-box-ct, div.moduletable .ja-box-ct {
+	padding: 10px 15px;
+}
+
+/* Hilite ---*/
+div.moduletable_hilite {
+	background: #5f9729;
+	color: #fff;
+	border: 1px solid #e2e2e5;
+}
+
+div.ja-moduletable_hilite .ja-box-ct h3, 
+div.moduletable_hilite .ja-box-ct h3 {
+	color: #fff;
+}
+/* Advertisement ---*/
+div.bannergroup_text div.banneritem_text { border-bottom: 1px dotted #dedede; }
+
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+#ja-container .main { padding: 10px 0; }
+
+#ja-main .inner { padding: 0; }
+
+/* Content Main ---*/
+.ja-content-main {
+	background: url(../images/grad-l1.gif) repeat-x bottom #fff;
+	border: 1px solid #dedede;
+	padding: 0 20px 10px;
+	margin: 5px;
+}
+
+/* HEADER
+--------------------------------------------------------- */
+#ja-header {}
+
+#ja-header .main { padding: 10px 0;}
+
+h1.logo, div.logo-text h1 { font-size: 250%; line-height: 1; margin-left: 10px;}
+
+/* Logo Image ---*/
+h1.logo { width: 294px; height: 68px; }
+
+h1.logo a {
+	background: url(../images/logo.png) no-repeat left;
+	display: block;
+	width: 294px;	
+	height: 68px;
+}
+
+/* Logo Text ---*/
+div.logo-text h1 {
+	font-size: 200%;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+
+div.logo-text h1 a {
+	text-decoration: none;
+}
+
+p.site-slogan {
+	color: #999;
+	display: block;
+	font-size: 85%;
+	margin: 3px 0 0;
+	padding: 0 10px;
+	text-transform: uppercase;
+}
+
+#ja-top-header {
+	margin-top:-5px;
+	position:absolute;
+	right:180px;
+	text-align:right;
+	width:50%;
+}
+
+#ja-search {
+	border: 1px solid #cacccd;
+	background: url(../images/icons/icon-search.png) no-repeat 10px center #fff;
+	bottom: 20px;
+	right: 5px;
+	height: 28px;
+	width: 200px;
+}
+
+#ja-search .inputbox {
+	background: none;
+	border: 0;
+	color: #666;
+	width: 165px;
+	height: 24px;
+	margin: 0;
+	padding-left: 30px;
+	font-weight: bold;
+}
+
+#ja-top {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+
+/* NAVIGATION
+--------------------------------------------------------- */
+/* Main Nav ---*/
+#ja-mainnav { z-index: 999; }
+
+#ja-mainnav .main { }
+
+#ja-mainnav .main-inner1 {
+	background: url(../images/noise-bg.png) #313435;
+	padding: 0;
+}
+
+/* Breadcrumbs ---*/
+#ja-navhelper .main { padding: 0; }
+
+#ja-navhelper .main-inner1 { padding-bottom: 8px; text-transform: uppercase; }
+
+.ja-breadcrums { text-indent: 15px; }
+
+.ja-links li.layout-switcher {
+	display: none;
+}
+
+/* Extras ---*/
+.ja-links { padding-right: 10px; }
+
+.ja-links li { padding: 0 10px; }
+
+/* Default Joomla! Menu ---*/
+
+div.moduletable_menu {}
+
+div.moduletable_menu .ja-box-ct { padding: 0; }
+
+#ja-container ul.menu li { border-bottom: 1px dotted #dedede; }
+
+#ja-container ul.menu li:last-child { border-bottom: 0; }
+
+#ja-container ul.menu li a {
+	background: none;
+	color: #525253;
+	padding-left: 15px;
+}
+
+#ja-container ul.menu li a:hover,
+#ja-container ul.menu li a:focus,
+#ja-container ul.menu li a:active {
+	background: #f0f0f3;
+	color: #525253;
+	text-decoration: none;
+}
+
+#ja-container ul.menu li.active {
+	background: #5f9729;
+}
+
+#ja-container ul.menu li.active a {
+	color: #fff;
+}
+
+#ja-container ul.menu li.active a:hover {
+	color: #fff;
+	background-color: #5f9729;
+}
+
+#ja-container ul.menu li ul {
+	margin: 0;
+}
+
+#ja-container ul.menu li li {
+	border-bottom: 0;
+	border-top: 1px dotted #dedede;
+	background: none;
+}
+
+#ja-container ul.menu li li a {
+	background: url(.././images/bullet-white.png) no-repeat 15px 12px #5f9729;
+	padding-left: 20px;
+}
+
+#ja-container ul.menu li.active li a:hover {
+	color: #fff;
+	background: url(.././images/bullet-white.png) no-repeat 15px 12px #313435;
+}
+
+
+/* SLIDESHOW
+--------------------------------------------------------- */
+#ja-slideshow { margin-top: 10px;}
+
+#ja-slideshow .wrap-inner1 { }
+
+#ja-content-mass-top {
+	background: #fff;
+	border: 1px solid #dedede;
+	margin: 5px 5px 10px;
+}
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+#ja-topsl .ja-box, #ja-botsl .ja-box { }
+
+#ja-topsl .ja-box-right, #ja-botsl-1 .ja-box-right, #ja-botsl-2 .ja-box-right {
+	background: 0 !important;
+}
+
+#ja-topsl .ja-moduletable, #ja-botsl .ja-moduletable {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 0;
+}
+
+#ja-topsl div.ja-moduletable h3,
+#ja-botsl div.ja-moduletable h3 {
+	border-bottom: 0;
+	padding: 0 15px;
+	margin-bottom: 0;
+	background: none;
+}
+
+
+#ja-botsl1 { margin-bottom: 15px; }
+
+/* Top spotlight ---*/
+#ja-topsl {	margin-top: 10px;}
+#ja-topsl .main { padding-top: 0; }
+
+#ja-topsl .main-inner1 {
+ 	background: #dedede;
+ 	padding: 10px;
+}
+
+/* Bot spotlight 1 ---*/
+#ja-botsl-1 {
+	margin: 0 0 15px;
+	color: #88888a;
+}
+
+#ja-botsl-1 .ja-box {
+	background: url(../images/divider.gif) repeat-y right;
+}
+
+#ja-botsl-1 .main-inner1 {
+ 	background: url(../images/botsl-bg.gif) repeat-x bottom #fff;
+	border: 1px solid #dedede;
+}
+
+#ja-botsl-1 .ja-moduletable h3,
+#ja-botsl-1 .moduletable h3 {
+	color: #313435;
+	background: none;
+	margin: 0;
+	padding-bottom: 0;
+	font-weight: bold;
+	font-size: 125%;
+}
+
+#ja-botsl-1 .ja-moduletable,
+#ja-botsl-1 .moduletable {
+	border: 0;
+	background: none;
+	padding-top: 10px;
+	margin: 0 0 10px;
+}
+
+#ja-botsl-1 .ja-moduletable ul,
+#ja-botsl-1 .moduletable ul {
+	margin-top: 0;
+}
+
+
+#ja-botsl-1 .ja-moduletable ul li,
+#ja-botsl-1 .moduletable ul li {
+	background: none;
+	border-bottom: 1px dotted #dedede;
+	padding: 5px 0 6px;
+}
+
+#ja-botsl-1 .ja-moduletable ul li a,
+#ja-botsl-1 .moduletable ul li a {
+	background: url(../images/bullet.png) no-repeat 0px 5px;
+	color: #88888a;
+	padding-left: 12px;
+}
+
+#ja-botsl-1 .ja-moduletable ul.contact li a,
+#ja-botsl-1 .ja-moduletable ul.contact li a:hover,
+#ja-botsl-1 .moduletable ul.contact li a,
+#ja-botsl-1 .moduletable ul.contact li a:hover {
+	background: none;
+	padding-left: 0;
+}
+
+#ja-botsl-1 .ja-moduletable ul li a:hover,
+#ja-botsl-1 .moduletable ul li a:hover {
+	background: url(../images/bullet-hover.png) no-repeat 0px 5px;
+	color: #5F9729;
+	text-decoration: none;
+}
+
+/* Bot spotlight 2 ---*/
+#ja-botsl-2 {
+	margin: 0 0 15px;
+	color: #88888a;
+}
+
+#ja-botsl-2 .main-inner1 {
+	background: url(../images/botsl-bg.gif) repeat-x bottom #fff;
+}
+
+#ja-botsl-2 .moduletable,
+#ja-botsl-2 .ja-moduletable {
+	margin: 0;
+}
+
+/* FOOTER
+----------------------------------------------------------- */
+#ja-footer { padding: 0 0 30px; color: #88888a; }
+
+#ja-footer .main { text-align: left; }
+#ja-footer .main-inner1 {
+	padding: 10px 15px;
+	background: url(../images/divider-3.gif) repeat-x top;
+}
+
+#ja-poweredby { position: absolute; right: 10px; top: 10px; }
+
+/* Footnav ---*/
+#ja-footer .ja-footnav { margin: 0 0 5px; }
+
+#ja-footer .ja-footnav ul li { background: url(../images/footnav-sep.gif) no-repeat right center; font-weight: bold; padding: 0 10px; }
+
+#ja-footer .ja-footnav ul li:first-child { padding-left: 0; }
+#ja-footer .ja-footnav ul li:last-child { background: none; }
+
+#ja-footer .ja-footnav li a { font-weight: bold; color: #88888a; }
+
+#ja-footer .ja-footnav li a:hover,
+#ja-footer .ja-footnav li a:focus,
+#ja-footer .ja-footnav li a:active {
+	color: #5F9729;
+}
+
+/* MISCELLANOUS
+----------------------------------------------------------- */
+/* Others ---*/
+#ja-top-panel {
+	background: url(../images/divider-3.gif) repeat-x bottom;
+	padding: 0 0 1px;
+	text-align: center;
+	margin-top: 0;
+}
+
+#ja-top-panel .main-inner1 {
+}
+
+#ja-banner { border-top: 1px solid #dedede; }
+
+div.ja-innerdiv {
+	border-bottom: 1px dotted #dedede;
+	padding: 15px 0 15px 100px;
+	position: relative;
+	margin: 0;
+}
+
+div.ja-innerdiv h4 {
+	font-size: 125%;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	text-transform: none;
+}
+
+div.ja-innerdiv h4 a {
+	color: #313435;
+}
+
+div.ja-innerdiv img { position: absolute; left: 0; top: 15px; }
+
+div.ja-innerdiv .price {
+	font-size: 125%;
+	color: #cc0000;
+	font-weight: bold;
+	margin-top: 10px !important;
+}
+
+div.ja-innerdiv .price span {
+	color: #666;
+}
+
+#ja-botsl-1 div.ja-innerdiv {
+	padding: 15px 0 0;
+}
+
+#ja-botsl-1 div.ja-innerdiv img {
+	position: relative;
+	margin-bottom: 10px;
+	top: auto;
+}
+
+/* Login form ---*/
+#form-login #form-login-username .inputbox,
+#form-login #form-login-password .inputbox {
+	padding: 5px;
+	background-repeat: repeat-x;
+}
+
+#form-login .button { margin: 0 0 5px; }
+
+#form-login label { font-weight: bold; color: #666; }
+
+#form-login ul li { margin: 0; padding: 0 0 0 10px; }
+
+#form-login ul li a { color: #666; }
+
+#form-login ul li a:hover,
+#form-login ul li a:focus,
+#form-login ul li a:active { color: #5F9729; }
+
+/* Custome search form ---*/
+#form-findhouse select,
+#form-findhouse .inputbox {
+	background: #eff8e7;
+	border: 1px solid #5F9729;
+	font-size: 92%;
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 95%;
+}
+
+#form-findhouse input.inputbox {
+	width: 88%;
+}
+
+#form-findhouse .button {
+	border: 1px solid #436B1D;
+	color: #fff;
+	font-weight: bold;
+	margin: 0 0 5px;
+	padding: 4px 6px;
+}
+
+#form-findhouse .button:hover { cursor: pointer; }
+
+/* Small gallery ---*/
+.small-gallery {
+	background: #fff;
+	border: 5px solid #fff;
+	float: left;
+	height: 72px;
+	width: 72px;
+	margin: 5px;
+}
+
+/* Quick contact ---*/
+ul.quick-contact {
+	display: block;
+	overflow: hidden;
+	font-size: 92%;
+	color: #88888a;
+	float: right;
+	border-left: 1px solid #cacccd;
+	border-right: 1px solid #fff;
+}
+
+ul.quick-contact li {
+	display: block;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 30px;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #cacccd;	
+}
+
+ul.quick-contact li.phone { }
+ul.quick-contact li.email {}
+ul.quick-contact li.sites { background: url(../images/icons/icon-lang.png) no-repeat 10px center; padding-left: 40px; margin-right: 0; }
+
+/* Comment Button ---*/
+.jac-add-button {
+	background: url(../images/comment_alt1_stroke_12x12.png) no-repeat 5px 5px;
+	border: 1px solid transparent;
+	color: #525253;
+	display: block;
+	float: right;
+	font-size: 92%;
+	text-transform: uppercase;
+	padding: 3px 5px 3px 22px;
+}
+
+.jac-add-button:hover {
+	background-color: #f0f0f0;
+	border-color: #dedede;
+	color: #525253;
+	text-decoration: none;
+}
+
+.jac-add-button a { color: #525253; }
+
+.jac-add-button a:hover, .jac-add-button a:active, .jac-add-button a:focus { text-decoration: none; }
+
+/* Popup ---*/
+div#fancy_outer {
+	z-index: 10000 !important;
+}

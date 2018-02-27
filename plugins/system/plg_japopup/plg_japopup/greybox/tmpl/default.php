@@ -1,0 +1,1 @@
+<a class="<?php echo $arrData['onopen'];?>,<?php echo $arrData['onclose'];?>" href="<?php echo $arrData['href'];?>" title="<?php echo $arrData['title'];?>" rel="<?php echo $arrData['rel'];?>" ><?php echo $arrData['content'];?></a>

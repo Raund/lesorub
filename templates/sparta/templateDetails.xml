@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="1.6"
+	type="template"
+	client="site">
+	<name>sparta</name>
+	<creationDate>2011</creationDate>
+	<author>Gravitys</author>
+	<authorEmail>likefilms@gmail.com</authorEmail>
+	<authorUrl>http://gravitys.com</authorUrl>
+	<copyright>All rights reserved.</copyright>
+	<license>GNU</license>
+	<version>1.6.0</version>
+	<description>Sparta</description>
+	<files>
+		<folder>img</folder>
+		<filename>index.php</filename>
+		<filename>index.html</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	<positions>
+		<position>menu</position>
+		<position>contact</position>
+		<position>gallery</position>
+		<position>topmenu</position>
+		<position>topquote</position>
+	</positions>
+</extension>

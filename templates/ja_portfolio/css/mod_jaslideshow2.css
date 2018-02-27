@@ -1,0 +1,94 @@
+.ja-slidewrap {
+	border: 0;
+}
+
+.ja-slide-main-wrap {
+	margin: 0 auto;
+	overflow: visible;
+}
+
+.ja-slidewrap .sl-mask1,
+.ja-slidewrap .sl-mask2 {
+	background: url(../images/sl-mask-top.png) repeat-x left top;
+	height: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 960px;
+	z-index: 100;
+}
+
+.ja-slidewrap .sl-mask2 {
+	background: url(../images/sl-mask-bot.png) repeat-x left bottom;
+	top: auto;
+	bottom: 0;
+}
+
+.ja-slidewrap .sl-mask3, .ja-slidewrap .sl-mask4 {
+	height: 340px;
+	width: 5px;
+	position: absolute;
+	top: 0;
+	z-index: 190;
+}
+
+.ja-slidewrap .sl-mask3 { background: url(../images/sl-mask-l.png) no-repeat right center; left: -6px; }
+.ja-slidewrap .sl-mask4 { background: url(../images/sl-mask-r.png) no-repeat right center; right: -6px; }
+
+.maskDesc {
+	background: url(../images/trans-black.png);
+	z-index: 10;
+	height: 120px !important;
+	bottom: 34px !important;
+	right: 0 !important;
+	width: 600px !important;
+}
+
+.maskDesc .ja-slide-desc {
+	color: #dedede;
+	font-size: 115%;
+	padding: 20px;
+	display: block;
+}
+
+.maskDesc .ja-slide-desc h3 {
+	color: #dedede;
+	font-size: 150%;
+	padding: 0;
+	margin: 0 0 10px;
+}
+
+.maskDesc .ja-slide-desc br {
+	line-height: 0;
+	font-size: 1px;
+}
+
+/* Control button ---*/
+#ja-slideshow .ja-slide-buttons {
+	position: absolute;
+	bottom: 30px;
+	left: 15px;
+	height: 43px;
+	width: 70px;
+}
+
+.ja-slide-buttons .ja-slide-prev,
+.ja-slide-buttons .ja-slide-next {
+	background-color: transparent;
+	background-image: url(../images/btncontrol.png);
+	background-repeat: no-repeat;
+	display: block;
+	padding: 0;
+	width: 35px;
+	height: 43px;
+	text-indent: -999em;
+	margin: 0;
+}
+
+.ja-slide-buttons .ja-slide-prev.hover,
+.ja-slide-buttons .ja-slide-next.hover {
+	background-image: url(../images/btncontrol-hover.png);
+}
+
+.ja-slide-buttons .ja-slide-prev { background-position: left top; float: left; }
+.ja-slide-buttons .ja-slide-next { background-position: right top; float: right;}

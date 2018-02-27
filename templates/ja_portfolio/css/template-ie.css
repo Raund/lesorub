@@ -1,0 +1,38 @@
+/*
+# ------------------------------------------------------------------------
+# JA Portfolio Template
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+*/
+
+div.userItemViewUnpublished {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+}
+
+div.userItemTagsBlock {
+	zoom: 1;
+}
+
+/* ------------------- */
+/* -- typo.css  -- */
+/* ------------------- */
+
+/* MESSAGE BOXES AND LEGENDS STYLE
+-----------------------------------------------------------------*/
+
+/* FORM
+--------------------------------------------------*/
+#ja-search .inputbox {
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 24px;
+}

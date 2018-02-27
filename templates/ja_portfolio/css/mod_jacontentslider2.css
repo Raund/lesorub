@@ -1,0 +1,216 @@
+/* ------------------------------------------------------------------------
+# $JA#PRODUCT_NAME$ - Version $JA#VERSION$ - Licence Owner $JA#OWNER$
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2009 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+# @license - Copyrighted Commercial Software
+# Author: J.O.O.M Solutions Co., Ltd
+# Websites: http://www.joomlart.com - http://www.joomlancers.com
+# This file may not be redistributed in whole or significant part.
+# -------------------------------------------------------------------------*/
+
+/* Content Slider */
+#ja-contentsliderwrap {
+	margin: 0 0 20px 0;
+	padding: 0;
+	background: url(../images/corner-br.gif) no-repeat bottom right;
+}
+
+div.ja-wrap1 {
+	background: url(../images/corner-bl.gif) no-repeat bottom left;
+}
+
+div.ja-wrap2 {
+	background: url(../images/corner-tr.gif) no-repeat top right;
+}
+
+div.ja-wrap3 {
+	background: url(../images/corner-tl.gif) no-repeat top left;
+	padding: 10px 0 0 0;
+}
+
+.ja-contentslider {
+	border: 2px solid #313435;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	width: auto !important;
+	width: 100%;
+	position: relative;
+}
+
+#ja-contentsliderwrap div.moduletable {
+	margin: 0;
+	padding: 0 !important;
+}
+
+/* Content Slider Center */
+.ja-contentslider-center-wrap {
+	position: relative;
+	z-index: 90;
+}
+
+.ja-contentslider-center {
+	margin: 0;
+	padding: 0;
+	float: left;
+	position:relative;
+	overflow:hidden;
+}
+
+div.ja_slidetitle {
+	text-align: center;
+}
+
+div.ja_slidetitle a {
+	font-weight: bold;
+}
+
+div.ja_slideimages { margin: 0; }
+
+#ja-contentsliderwrap .ja_slideintro {
+	padding: 10px 5px 0;
+}
+
+div.ja-slidereadmore {
+	margin: 10px 0 0;
+}
+
+.ja-contentslider-center span {
+	width: 140px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.ja-contentslider-center div.jsslide {
+	background:  url(../images/load-indicator.gif) center center no-repeat;
+}
+
+.ja-contentslider-center img {
+	background: none;
+	border: 0 !important;
+	margin: 0 !important;
+	padding: 0px !important;
+	overflow:hidden;
+}
+
+.ja-contentslider-center div.ja-image-holder {
+	background: #EBF2F6;
+	border: 1px solid #D5E2E7;
+	margin: 0;
+	padding: 3px;
+	overflow:hidden;
+}
+
+/* Button control ---*/
+.ja-button-control {
+	height: 40px;
+	right: 0px;
+	bottom: 10px;
+	position: absolute;
+	z-index: 1000;
+	width: 100px;
+}
+
+.ja-button-control a {
+	display: block;
+	float: left;
+	line-height: 20px;
+	margin-left: 5px;
+	margin-top: 2px;
+	padding: 0 5px;
+	background: #fff;
+	border: 1px solid #cfd9df;
+}
+
+.ja-button-control a:hover,
+.ja-button-control a:active,
+.ja-button-control a:focus {
+	text-decoration: none;
+	color: #fff;
+	background: url(../images/grad-d3.gif) repeat-x top #29739d;
+	border: 1px solid #215d7f;
+}
+
+.ja-button-control a.active {
+	text-decoration: none;
+	color: #fff;
+	background: url(../images/grad-d3.gif) repeat-x top #29739d;
+	border: 1px solid #215d7f;
+}
+
+.ja-contentslider-left,
+.ja-contentslider-right {
+	background-image: url(../images/btn-prev-next.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+	position: absolute;
+	height: 30px;
+	right: 10px;
+	top: 8px;
+	width: 30px;
+}
+
+.ja-contentslider-left {
+	background-position: top left;
+	right: 50px;
+}
+
+.ja-contentslider-left:hover,
+.ja-contentslider-right:hover {
+	background-position: bottom right;
+	cursor: pointer;
+}
+
+.ja-contentslider-left:hover {
+	background-position: bottom left;
+}
+
+.ja-button-control strong {
+	font-size: 110%;
+	padding-left: 20px;
+	line-height: 27px;
+	display: block;
+	float: left;
+}
+
+/* Tooltips ---*/
+.tooltips .ja-cs-tooltips {
+	background: url(../images/grad-l2.gif) repeat-x left bottom #fff !important;
+	border: 2px solid #ffcc66;
+	width: 200px;
+	padding: 10px;
+}
+
+.tooltips .ja-cs-tooltips h3 {
+	background: #EBF2F6;
+	border-bottom: 1px solid #cfd9df;
+	color: #29739d;
+	font-size: 110%;
+	margin: -10px -10px 10px -10px;
+	padding: 5px 10px;
+}
+
+.tooltips .ja-cs-tooltips ul li {
+	display: block;
+	font-size: 11px;
+}
+
+.tooltips .ja-cs-tooltips ul li.ja-rating-wrap strong {
+	display: block;
+	float: left;
+	margin-right: 5px;
+}
+
+.tooltips .ja-cs-tooltips .ja-item-rating {
+	background: url(../images/stars.png) repeat-x left top;
+	float: left;
+	height: 20px;
+	width: 100px;
+}
+
+.tooltips .ja-cs-tooltips .ja-current-rating {
+	background: url(../images/stars.png) repeat-x left center;
+	height: 20px;
+}

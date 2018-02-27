@@ -1,0 +1,555 @@
+/*
+# ------------------------------------------------------------------------
+# JA Portfolio Template
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+*/
+
+/* ------------------- */
+/* -- template.css  -- */
+/* ------------------- */
+
+/* Meta ---*/
+div.article-tools {
+}
+
+/*Inline images ---*/
+.img-border,
+span.catItemImage img,
+span.itemImage img,
+span.genericItemImage img {
+	box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+p.readmore a {
+	text-shadow: 0 1px 1px #fff;
+}
+
+/* Headings ---*/
+h1.componentheading, .componentheading {
+	text-shadow: 0 -1px 0 rgba(0,0,0,.8);
+}
+
+h1.contentheading, h2.contentheading, .contentheading {
+	text-shadow: 0 1px 1px #fff;
+}
+
+/* FORM
+--------------------------------------------------------- */
+
+.button {
+	text-shadow: 0 1px 1px #000;
+}
+
+/* Login form ---*/
+#form-login #form-login-username .inputbox,
+#form-login #form-login-password .inputbox {
+}
+
+#form-login .button,
+#form-findhouse .button {
+}
+
+.ja-content-main {
+	box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+/* JOOMLA STYLE
+--------------------------------------------------------- */
+
+/* Meta ---*/
+div.article-tools {
+	text-shadow: 0 1px 1px #fff;
+}
+
+/* MODULE STYLES
+--------------------------------------------------------- */
+
+div.ja-moduletable h3, div.moduletable h3 {
+	text-shadow: 0 -1px 0 rgba(0,0,0,.8);
+}
+
+#ja-container div.ja-moduletable, #ja-container div.moduletable {
+	box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+div.ja-moduletable .ja-box-ct h3, div.moduletable .ja-box-ct h3 {
+	text-shadow: none;
+}
+
+/* HEADER
+--------------------------------------------------------- */
+
+#ja-search {
+	box-shadow: inset 0 1px 5px rgba(0, 0, 0, .3);
+	-moz-box-shadow: inset 0 1px 5px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: inset 0 1px 5px rgba(0, 0, 0, .3);
+}
+
+/* NAVIGATION
+--------------------------------------------------------- */
+
+#ja-mainnav .main-inner1 {
+	box-shadow: 0 -2px 3px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 -2px 3px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 -2px 3px rgba(0, 0, 0, .2);
+}
+
+span.menu-desc { opacity: .5; }
+
+.active span.menu-desc {
+	 opacity: 1;
+	 text-shadow: none;
+}
+
+/* SLIDESHOW
+--------------------------------------------------------- */
+
+#ja-content-mass-top {
+	box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+
+#ja-topsl .main-inner1 {
+ 	box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+#ja-botsl-1 {
+	text-shadow: 0 1px 0 #fff;
+}
+
+#ja-botsl-1 .main-inner1 {
+ 	box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+#ja-botsl-1 .ja-moduletable h3,
+#ja-botsl-1 .moduletable h3 {
+	text-shadow: 0 1px 0 #fff;
+}
+
+#ja-botsl-2 {
+	text-shadow: 0 1px 0 #fff;
+}
+
+#ja-botsl-2 .main-inner1 {
+ 	box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .2);
+}
+
+/* FOOTER
+----------------------------------------------------------- */
+#ja-footer { text-shadow: 0 1px 0 #fff; }
+
+/* MISC
+----------------------------------------------------------- */
+
+/* Custome search form ---*/
+#form-findhouse .button {
+	text-shadow: 0 1px 1px #5F9729;
+}
+
+/* Small gallery ---*/
+.small-gallery {
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+/* Comment Button ---*/
+.jac-add-button {
+	text-shadow: 0 1px 1px #fff;
+}
+
+/* Tabs Text Shadow */
+.portfolio ul.ja-tabs-title li h3 { text-shadow: 0 1px 0 rgba(255,255,255,.8); }
+.portfolio ul.ja-tabs-title li.active h3 { text-shadow: 0 1px 1px rgba(0,0,0,.2); }
+
+
+/* MENU
+----------------------------------------------------------- */
+
+/* -------------------- */
+/* -- menu/split.css -- */
+/* -------------------- */
+
+/* Split menu ---*/
+#ja-subnav ul li ul {
+	box-shadow: 3px 0px 3px rgba(0, 0, 0, .1);
+	-moz-box-shadow: 3px 0px 3px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 3px 0px 3px rgba(0, 0, 0, .1);
+}
+
+/* ------------------ */
+/* -- menu/css.css -- */
+/* ------------------ */
+
+/* CSS Menu */
+
+#ja-cssmenu li a { text-shadow:0 -1px 0 rgba(0, 0, 0, 0.5); }
+
+#ja-cssmenu li ul {
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+}
+#ja-cssmenu li ul li:hover,
+#ja-cssmenu li ul li.sfhover,
+#ja-cssmenu li ul li.havechildsfhover,
+#ja-cssmenu li ul li.havechild-activesfhover {
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, .5);
+	-moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .5);
+}
+
+/* ----------------------- */
+/* -- menu/dropline.css -- */
+/* ----------------------- */
+
+/* Dropline Menu */
+
+#jasdl-mainnav li a { text-shadow: 0 -1px 0 rgba(0,0,0,1); }
+
+#jasdl-mainnav li.active a,
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus {
+	text-shadow: 0 -1px 0 rgba(0,0,0,.65);
+}
+
+#ja-subnav .main {
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .2);
+}
+
+#ja-subnav li a { text-shadow: 0 -1px 0 rgba(0,0,0,.5); }
+
+#ja-subnav ul li ul {
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+/* ------------------- */
+/* -- menu/mega.css -- */
+/* ------------------- */
+
+/* Mega Menu */
+.ja-megamenu ul.level0 li.mega a.mega {
+	text-shadow: 0 -1px 0 rgba(0,0,0,1);
+}
+
+.ja-megamenu ul.level0 li.active {
+	text-shadow: 0 -1px 0 rgba(0,0,0,.65);
+}
+
+.ja-megamenu ul.level1 li.over, ul.level1 li.haschild-over {
+	box-shadow: inset 0 0 3px rgba(0, 0, 0, .5);
+	-moz-box-shadow: inset 0 0 3px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, .5);
+}
+
+.ja-megamenu ul.level1 li.mega a.mega {
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+.ja-megamenu .childcontent-inner {
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+	box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+}
+
+.ja-megamenu .level1 .childcontent-inner {
+	box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.ja-megamenu .group-title {
+	box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+}
+
+/* ------------ */
+/* -- k2.css -- */
+/* ------------ */
+
+div.itemHeader {
+	text-shadow: 0 1px 1px #fff;
+}
+
+div.subCategory {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.subCategory .subCategoryMore {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.catItemTagsBlock ul.catItemTags li a,
+div.itemTagsBlock ul.itemTags li a,
+div.userItemTagsBlock ul.userItemTags li a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+div.itemTagsBlock ul.itemTags li a {
+	text-shadow: 0 1px 1px #fff;
+}
+
+div.itemListCategory {
+	text-shadow: 0 1px 1px #fff;
+}
+
+div.subCategory .subCategoryMore {
+	text-shadow: 0 1px 1px #fff;
+}
+
+div.catItemHeader h3.catItemTitle {
+	text-shadow: 0 1px 1px #fff;
+}
+
+div.catItemTagsBlock ul.catItemTags li a {
+	text-shadow: 0 1px 1px #fff;
+}
+
+div.catItemReadMore a {
+	text-shadow: 0 1px 1px #fff;
+}
+
+/* User items */
+div.userItemViewUnpublished {
+	opacity: 0.9;
+}
+
+div.userItemTagsBlock ul.userItemTags li a {
+	text-shadow: 0 0 0 1px #fff;
+}
+
+div.k2ItemsBlock ul li a.moduleItemReadMore {
+	text-shadow: 0 1px 1px #fff;
+}
+
+/* ------------------------- */
+/* -- ja_contentslide.css -- */
+/* ------------------------- */
+
+/* JA content slide */
+
+.ja-contentslider-left,
+.ja-contentslider-right {
+	opacity: .75;
+}
+
+.ja-contentslider-left:hover,
+.ja-contentslider-right:hover {
+	opacity: 1;
+}
+
+div.ja_slideimages img {
+ 	box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+}
+
+/* ------------------------------ */
+/* -- mod_jacontentslider2.css -- */
+/* ------------------------------ */
+
+/* Tooltips ---*/
+.tooltips .ja-cs-tooltips {
+	box-shadow: 0 2px 5px #999;
+	-moz-box-shadow: 0 2px 5px #999;
+	-webkit-box-shadow: 0 2px 5px #999;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.tooltips .ja-cs-tooltips h3 {
+	text-shadow: 1px 1px 0 #fff;
+}
+
+/* Button control ---*/
+.ja-button-control a {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+/* -------------------------- */
+/* -- mod_jaslideshow2.css -- */
+/* -------------------------- */
+
+.maskDesc {
+	box-shadow: 0 3px 5px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .4);
+	opacity: .85;
+}
+
+.maskDesc .ja-slide-desc {
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .8);
+}
+
+.maskDesc .ja-slide-desc h3 {
+	text-shadow: 0 0 2px rgba(0, 0, 0, .3);
+}
+
+/* -------------- */
+/* -- typo.css -- */
+/* -------------- */
+
+/* TYPO PAGE LAYOUT
+-------------------------------------------------------------*/
+
+/* Block Actions ---*/
+
+#ja-typo .typo-wrap a.typo-view-details {
+	opacity: .85;
+	box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+/* BUBBLES
+-----------------------------------------------------------------*/
+
+.ja-typo-bubblect {
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* Common Style for Rounded Bubbles --- */
+.bubble-rounded .ja-typo-bubblect {
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+}
+
+/* MESSAGE BOXES AND LEGENDS STYLE
+-----------------------------------------------------------------*/
+
+/* Rounded Box*/
+.box-rounded {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* Rounded Box*/
+.legend-rounded {
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px; 
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* BUTTONS
+--------------------------------------------------*/
+
+/* Common Buttons Style ---*/
+a.ja-typo-btn {
+	text-shadow: 0 1px 2px rgba(255,255,255,.8);
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}
+
+/* Common style for Dark Buttons --- */
+
+a.btn-blue,
+a.btn-red,
+a.btn-green,
+a.btn-orange,
+a.btn-black {
+	text-shadow: 0 1px 2px rgba(0,0,0,.8);
+}
+
+/* Common style for Rounded Buttons --- */
+.btn-rounded-icn, .btn-rounded-big, .btn-rounded-sm,
+.btn-rounded-icn span, .btn-rounded-big span, .btn-rounded-sm span {
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px; 
+}
+
+.btn-rounded-sm, .btn-rounded-sm span {
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px; 
+}
+
+/* TAGS
+--------------------------------------------------*/
+span.ja-typo-tag {
+	text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+}
+
+span.tag-grey {	text-shadow: 0 -1px 0 rgba(255,255,255,.8); }
+
+/* Common style for Rounded Tags --- */
+span.tag-rounded {
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px; 
+}
+
+/* TYPO HEAD
+-------------------------------------------------------------*/
+
+ul#ja-typo-nav li.active a {
+	text-shadow: 0 -1px 1px rgba(0,0,0,.8);
+}
+
+.ja-typo-blockswrap h2.ja-typo-title span {
+	text-shadow: 0 -1px 1px rgba(255,255,255,.8);
+}
+
+/* BUBBLES
+-----------------------------------------------------------------*/
+
+.ja-typo-bubblect {
+	box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 3px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 0 3px rgba(0,0,0,.5);
+}

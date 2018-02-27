@@ -1,0 +1,25 @@
+.ja-contentslider-left,
+.ja-contentslider-right {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	top: 12px;
+	cursor: pointer;
+}
+
+.ja-contentslider-left { right: 42px; }
+
+.ja-contentslider-right { background-position: left top; right: 15px; }
+
+div.ja_slideimages a {
+	display: block;
+}
+
+div.ja_slideimages img {
+	border: 5px solid #fff;
+}
+
+div.ja_slidetitle { padding-top: 5px; padding-right: 20px; }
+
+div.ja_slidetitle a { color: #88888a; font-weight: normal; font-size: 92%; }
+div.ja_slidetitle a:hover { color: #313435; text-decoration: none; }

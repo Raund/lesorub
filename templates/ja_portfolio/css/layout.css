@@ -1,0 +1,67 @@
+/*
+# ------------------------------------------------------------------------
+# JA Portfolio Template
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+*/
+
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+/* Gutter ---*/
+.main .inner {
+/* We use liquid layout, so we need to insert a div which will create margin if need */
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.main .main-inner1 {
+/* We use liquid layout, so we need to insert a div which will create margin if need */
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.column div.ja-moduletable, .column div.moduletable, .column div.ja-module, .column div.module { 
+/* for side columns and spotlight, we only need to add margin or padding to Module */
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#ja-right div.ja-moduletable, #ja-right .div.moduletable, #ja-right div.ja-module, #ja-right div.module {
+	margin-right: 5px;
+}
+
+#ja-left div.ja-moduletable, #ja-left .div.moduletable, #ja-left div.ja-module, #ja-left div.module {
+	margin-left: 5px;
+}
+
+.ja-inset2 div.ja-moduletable, .ja-inset2 .div.moduletable, .ja-inset2 div.ja-module, .ja-inset2 div.module {
+	margin-right: 5px;
+	margin-left: 10px;
+}
+
+.ja-inset1 div.ja-moduletable, .ja-inset1 .div.moduletable, .ja-inset1 div.ja-module, .ja-inset1 div.module {
+	margin-right: 10px;
+	margin-left: 5px;
+}
+
+.item .contentpaneopen {
+/* for article columns, we only need to add margin or padding to this div  */
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.items-leading { }
+
+.items-row, .items-leading {
+/* minus the spacing of the article row to macth with the Gutter & global grid */
+	margin-left: -20px;
+	margin-right: -20px; 
+}

@@ -1,0 +1,89 @@
+.ja-megamenu a.over, .ja-megamenu a.active { color: #fff !important; }
+
+ul.megamenu ul.megamenu ul.megamenu { margin: 10px 5px; /* menu's gutter */ } 
+
+/* lv - 0
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level0 li.mega {
+	background: url(../../images/mainnav-sep.gif) repeat-y right;
+}
+
+.ja-megamenu ul.level0 li.mega a.mega {
+	padding: 15px 20px 10px;
+	color: #cacccd;
+}
+
+.ja-megamenu ul.level0 li.active {
+	color: #fff;
+	background: url(../../images/mainnav-sep.gif) repeat-y right #5f9729;
+}
+
+.ja-megamenu ul.level0 li.over, ul.level0 li.haschild-over {
+	background: url(../../images/mainnav-sep.gif) repeat-y right #525253;
+}
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level1 li.mega {
+	background: url(../../images/divider-2.gif) repeat-x top;
+}
+
+.ja-megamenu ul.level1 li.mega.haschild {
+	background: url(../../images/divider-4.gif) no-repeat top right;
+}
+
+.ja-megamenu ul.level1 li.first { background-image: none }
+
+.ja-megamenu ul.level1 li.over, ul.level1 li.haschild-over {
+	background-color: #313435;
+}
+
+.ja-megamenu ul.level1 li.mega a.mega {
+	border: 0;
+	padding: 8px 10px;
+	color: #cacccd;
+}
+
+.ja-megamenu ul.level1 li a.mega span.menu-desc {
+	padding-left: 0 !important;
+}
+
+ /* CHILD CONTENT
+-----------------------------------*/
+.ja-megamenu .childcontent-inner {
+	background: #525253;
+	border: 1px solid #525253;
+	border-top: 0;
+	color: #cacccd;
+}
+
+.ja-megamenu .level1 .childcontent-inner {
+	border-top: 1px solid #525253;
+}
+
+.ja-megamenu .childcontent .ja-moduletable { margin: 10px 5px; background: none; border: 0; }
+.ja-megamenu .childcontent .ja-moduletable .ja-box-ct { padding: 0; }
+
+.ja-megamenu .childcontent .ja-moduletable h3 {
+	background: none;
+	border-bottom: 1px dotted #ccc;
+	text-transform: uppercase;
+}
+
+/* Grouped --- */
+.ja-megamenu .group-title {
+	background: #313435;
+}
+
+.ja-megamenu .group-title .menu-title {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 100%;
+}
+
+.ja-megamenu .group-title .menu-desc {
+	padding-left: 0 !important;
+}

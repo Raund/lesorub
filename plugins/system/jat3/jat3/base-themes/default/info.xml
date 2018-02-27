@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<theme>
+	<name>default</name>
+	<description>Default base theme</description>
+	<date>April 2010</date>
+	<version>1.0.0</version>
+	<author>JoomlArt</author>
+	<copyright>JoomlArt</copyright>
+	<!--Extra css load for this theme-->
+	<stylesheets>
+		<file>css/addons.css</file>
+		<file>css/layout.css</file>
+		<file>css/template.css</file>
+		<file>css/color.css</file>
+		<file>css/usertools.css</file>
+		<file>css/css3.css</file>
+	</stylesheets>
+	<scripts>
+		<file>js/core.js</file>
+	</scripts>
+	<params>
+	</params>
+</theme>

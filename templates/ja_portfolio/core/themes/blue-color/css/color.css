@@ -1,0 +1,178 @@
+/*
+# ------------------------------------------------------------------------
+# JA Portfolio Template
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+*/
+
+/* COMMON STYLE
+--------------------------------------------------------- */
+
+/* Normal links ---*/
+a { color: #08a1ca; }
+
+a:hover, a:active, a:focus { color: #525253; }
+
+/* Readon links ---*/
+
+/* Headings ---*/
+h2.contentheading a:hover,
+h2.contentheading a:active,
+h2.contentheading a:focus { color: #08a1ca; }
+
+/* Others ---*/
+
+/* FORM
+--------------------------------------------------------- */
+.button {
+	border: 1px solid #08a1ca;
+	background-image: url(../images/grad-d1.gif);
+}
+
+/* Search ---*/
+/* Contact ---*/
+
+/* JOOMLA STYLE
+--------------------------------------------------------- */
+/* Layout Deco ---*/
+
+/* Meta ---*/
+
+/*Inline images ---*/
+
+/* Tables ---*/
+
+/* Content Toc */
+/* Poll */
+
+/* Pagination ---*/
+
+/* Feed ---*/
+
+/* MODULE STYLES
+--------------------------------------------------------- */
+/* Hilite ---*/
+div.moduletable_hilite {
+	background: #08a1ca;
+}
+
+/* Advertisement ---*/
+
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+
+/* Content Main ---*/
+
+/* HEADER
+--------------------------------------------------------- */
+
+/* Logo Image ---*/
+h1.logo a {
+	background: url(../images/logo.png) no-repeat left;
+}
+
+/* Logo Text ---*/
+/* NAVIGATION
+--------------------------------------------------------- */
+/* Main Nav ---*/
+
+/* Breadcrumbs ---*/
+
+/* Extras ---*/
+
+/* Default Joomla! Menu ---*/
+#ja-container ul.menu li.active {
+	background: #08a1ca;
+}
+
+#ja-container ul.menu li.active a:hover {
+	background-color: #08a1ca;
+}
+
+#ja-container ul.menu li li a {
+	background-color: #08a1ca;
+}
+
+/* SLIDESHOW
+--------------------------------------------------------- */
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+/* Top spotlight ---*/
+
+/* Bot spotlight 1 ---*/
+
+#ja-botsl-1 .ja-moduletable ul li a:hover,
+#ja-botsl-1 .moduletable ul li a:hover {
+	color: #08a1ca;
+	background-image: url(../images/bullet-hover.png);
+}
+
+/* Bot spotlight 2 ---*/
+
+/* FOOTER
+----------------------------------------------------------- */
+/* Footnav ---*/
+
+#ja-footer .ja-footnav li a:hover,
+#ja-footer .ja-footnav li a:focus,
+#ja-footer .ja-footnav li a:active {
+	color: #08a1ca;
+}
+
+/* MISCELLANOUS
+----------------------------------------------------------- */
+/* Others ---*/
+
+/* Login form ---*/
+#form-login ul li a:hover,
+#form-login ul li a:focus,
+#form-login ul li a:active { color: #08a1ca; }
+
+/* Custome search form ---*/
+#form-findhouse select {
+	border: 1px solid #08a1ca;
+}
+
+#form-findhouse .button {
+	border: 1px solid #0785A6;
+}
+
+/* Small gallery ---*/
+/* Quick contact ---*/
+/* Comment Button ---*/
+
+/* Ja ShowCase ---*/
+
+#jashowcase-main .jasc-btn-control ul li.active {
+	background-image: url(../images/bullet-active.png);
+}
+
+/* Ja Comment ---*/
+#jac-wrapper #btlAddNewComment {
+	background: #08a1ca;
+	border: 1px solid #0785a6;
+}
+
+#jac-wrapper .rank-high .comment-rankingresult {
+	color: #08a1ca;
+}
+
+/* Ja K2 Filter ---*/
+#form-findhouse select,
+#form-findhouse .inputbox {
+	background: #CCEDF6;
+	border: 1px solid #08a1ca;
+}
+
+#form-findhouse .button {
+	border: 1px solid #0785a6;
+}

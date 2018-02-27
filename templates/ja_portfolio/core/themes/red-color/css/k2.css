@@ -1,0 +1,215 @@
+/**
+ * @version		$Id: k2.css 503 2010-06-24 21:11:53Z joomlaworks $
+ * @package		K2
+ * @author		JoomlaWorks http://www.joomlaworks.gr
+ * @copyright	Copyright (c) 2006 - 2010 JoomlaWorks, a business unit of Nuevvo Webware Ltd. All rights reserved.
+ * @license		GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+ */
+
+
+/*----------------------------------------------------------------------
+	COMMONT ELEMENTS
+----------------------------------------------------------------------*/
+
+/* --- Basic typography --- */
+
+
+/* --- Global K2 container --- */
+
+/* --- General padding --- */
+
+/* --- Clearing --- */
+
+/* --- Zebra rows --- */
+
+/* --- RSS feed icon --- */
+/* --- Rating --- */
+/* --- CSS added with Javascript --- */
+/* --- Primary lists in modules --- */
+
+/* --- Avatars --- */
+/* --- Read more --- */
+/* --- Pagination --- */
+
+/* --- Extra fields: CSV data styling --- */
+
+/* --- Featured flags: the classes are repeated further below to indicate placement in the CSS structure --- */
+
+/*----------------------------------------------------------------------
+	COMPONENT: Item view
+----------------------------------------------------------------------*/
+
+div.itemAuthorBlock h3.itemAuthorName a:hover,
+div.itemAuthorBlock h3.itemAuthorName a:focus,
+div.itemAuthorBlock h3.itemAuthorName a:active {
+	color: #db2c2c;
+}
+
+div.itemAuthorBlock div.itemAuthorDetails span.itemAuthorUrl a:hover,
+div.itemAuthorBlock div.itemAuthorDetails span.itemAuthorEmail a:hover { color: #db2c2c; }
+
+/* Author latest */
+
+div.itemRelated ul li a:hover,
+div.itemRelated ul li a:focus,
+div.itemRelated ul li a:active {
+	color: #db2c2c;
+}
+
+/* Related by tag */
+div.itemAuthorLatest ul li a:hover,
+div.itemAuthorLatest ul li a:focus,
+div.itemAuthorLatest ul li a:active {
+	background-image: url(../images/bullet-hover.png);
+	color: #db2c2c;
+}
+
+/* Video */
+	
+/* Image Gallery */
+
+/* Article navigation */
+
+/* Comments */
+/* Back to top link */
+
+/*----------------------------------------------------------------------
+	COMPONENT: Itemlist view (category)
+----------------------------------------------------------------------*/
+
+/* --- Category block --- */
+
+/* --- Sub-category block --- */
+/* --- Item groups --- */
+/* --- Item block for each item group --- */
+div.catItemView h3 a:hover,
+div.catItemView h3 a:focus,
+div.catItemView h3 a:active { color: #db2c2c; }
+
+/* Additional class appended to the element above for further styling per group item */
+div.catItemHeader h3.catItemTitle a:hover,
+div.catItemHeader h3.catItemTitle a:focus,
+div.catItemHeader h3.catItemTitle a:active { color: #db2c2c;}
+/* Video */
+
+/* Image Gallery */
+
+/* Anchor link to comments */
+
+/* Read more link */
+/* Modified date */
+
+/*----------------------------------------------------------------------
+	COMPONENT: Itemlist view (user)
+----------------------------------------------------------------------*/
+
+/* User info block */
+
+/* User items */
+
+/* Anchor link to comments */
+
+/* Read more link */
+
+
+/*----------------------------------------------------------------------
+	COMPONENT: Itemlist view (generic)
+----------------------------------------------------------------------*/
+/* Read more link */
+/*----------------------------------------------------------------------
+	Component: Latest view
+----------------------------------------------------------------------*/
+
+/* Category info block */
+div.latestItemsCategory h2 a:hover,
+div.latestItemsCategory h2 a:focus,
+div.latestItemsCategory h2 a:active {
+	color: #db2c2c;
+}
+
+/* User info block */
+
+.portfolio-blog div.catItemHeader h3.catItemTitle a:hover,
+.portfolio-blog div.catItemHeader h3.catItemTitle a:focus,
+.portfolio-blog div.catItemHeader h3.catItemTitle a:active {
+	color: #db2c2c;
+}
+
+/* Latest items list */
+
+div.latestItemHeader h2 a:hover,
+div.latestItemHeader h2 a:focus,
+div.latestItemHeader h2 a:active { color: #db2c2c; }
+
+div.latestItemTagsBlock ul li a:hover,
+div.latestItemTagsBlock ul li a:focus,
+div.latestItemTagsBlock ul li a:active {
+	color: #db2c2c;
+}
+
+/* Video */
+
+/* Anchor link to comments */
+
+/* Read more link */
+/* Items presented in a list */
+
+h2.latestItemTitleList a:hover,
+h2.latestItemTitleList a:focus,
+h2.latestItemTitleList a:active {
+	background-image: url(../images/bullet-hover.png);
+	color: #db2c2c;
+}
+
+/*----------------------------------------------------------------------
+	Component: Register & profile page views (register.php & profile.php)
+----------------------------------------------------------------------*/
+/* Profile edit */
+/*----------------------------------------------------------------------
+	Modules: mod_k2_comments
+----------------------------------------------------------------------*/
+
+/* Latest Comments */
+
+/* Top Commenters */
+
+/*----------------------------------------------------------------------
+	Modules: mod_k2_content
+----------------------------------------------------------------------*/
+
+/* Module K2 Content with 2 column ---*/
+
+/* Module K2 Content with 3 column ---*/
+
+/*----------------------------------------------------------------------
+	Modules: mod_k2_login
+----------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------
+	MODULES: mod_k2_tools
+----------------------------------------------------------------------*/
+
+/* --- Archives --- */
+/* --- Category Tree Select Box --- */
+
+/* --- Category List/Menu --- */
+
+/* Root level (0) */
+	
+/* First level (1) */
+		
+/* n level (n) - like the above... */
+
+/* --- Search Box --- */
+
+/* --- Tag Cloud --- */
+
+/* --- Google Search --- */
+
+/*----------------------------------------------------------------------
+	Modules: mod_k2_users
+----------------------------------------------------------------------*/
+
+div.k2UsersBlock ul li ul.ubUserItems li a:hover,
+div.k2UsersBlock ul li ul.ubUserItems li a:focus,
+div.k2UsersBlock ul li ul.ubUserItems li a:active { color: #db2c2c; }

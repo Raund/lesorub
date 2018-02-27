@@ -1,0 +1,4 @@
+.ja-slide-buttons .ja-slide-prev.hover,
+.ja-slide-buttons .ja-slide-next.hover {
+	background-image: url(../images/btncontrol-hover.png);
+}

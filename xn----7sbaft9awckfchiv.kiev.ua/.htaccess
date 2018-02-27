@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^xn\-\-\-\-7sbaft9awckfchiv\.kiev\.ua$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.xn\-\-\-\-7sbaft9awckfchiv\.kiev\.ua$
+RewriteRule ^/?$ "http\:\/\/www\.lesorub\.kiev\.ua" [R=301,L]
+

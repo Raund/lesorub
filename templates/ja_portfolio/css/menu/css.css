@@ -1,0 +1,73 @@
+/* Son of Suckerfish Dropdowns
+---------------------------------------------------------
+Originally developed by Patrick Griffiths and Dan Webb
+http://www.htmldog.com/articles/suckerfish/dropdowns/
+---------------------------------------------------------
+NOTE: After a deep research, we decide to divide this
+CSS into 2 parts. The first part will define the layout.
+The second part will define the visual look for this menu.
+---------------------------------------------------------*/
+
+/* STYLING THE MENU
+-----------------------------------*/
+/* 1st level */
+#ja-cssmenu li {
+	background: url("../../images/mainnav-sep.gif") repeat-y right center;
+}
+#ja-cssmenu li a {
+	font-weight: bold;
+	padding: 15px 20px 10px;
+	color: #CACCCD;
+}
+
+#ja-cssmenu li a:hover,
+#ja-cssmenu li a:focus,
+#ja-cssmenu li a:active { color: #fff; }
+
+#ja-cssmenu li.active {
+	background: #5F9729;
+}
+
+#ja-cssmenu li a.active,
+#ja-cssmenu li a.active:hover,
+#ja-cssmenu li a.active:active,
+#ja-cssmenu li a.active:focus {
+	color:#fff !important;
+}
+
+#ja-cssmenu li:hover,
+#ja-cssmenu li.sfhover,
+#ja-cssmenu li.havechildsfhover,
+#ja-cssmenu li.havechild-activesfhover {
+	background-color:#525253;
+}
+
+/* 2nd level and above */
+#ja-cssmenu li ul {
+	background: #525253;
+	border: 1px solid #525253;
+	border-top: 0;
+}
+
+#ja-cssmenu li ul ul {  }
+
+#ja-cssmenu li ul li {
+	background: url(../../images/divider-2.gif) repeat-x center top transparent !important;
+}
+
+#ja-cssmenu li ul li.havesubchild {
+	background: url(../../images/divider-4.gif) no-repeat right top !important;
+}
+
+#ja-cssmenu li ul li.active {
+	padding-left: 0;
+}
+
+#ja-cssmenu li ul li:hover,
+#ja-cssmenu li ul li.sfhover,
+#ja-cssmenu li ul li.havechildsfhover,
+#ja-cssmenu li ul li.havechild-activesfhover {
+	background-color: #313435 !important;
+}
+
+#ja-cssmenu li ul li.first-item { background-image:none !important; }

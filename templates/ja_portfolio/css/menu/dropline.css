@@ -1,0 +1,125 @@
+/*
+# ------------------------------------------------------------------------
+# JA Portfolio Template
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+*/
+
+#jasdl-mainnav li {
+	background: url(../../images/mainnav-sep.gif) repeat-y right;
+}
+
+#jasdl-mainnav li a {
+	color: #cacccd;
+	font-size: 100%;
+	padding: 15px 20px 10px;
+}
+
+#jasdl-mainnav li a:hover,
+#jasdl-mainnav li a:focus,
+#jasdl-mainnav li a:active {
+	color: #fff;
+	background: url(../../images/mainnav-sep.gif) repeat-y right #525253;
+}
+
+#jasdl-mainnav li.active {
+}
+
+#jasdl-mainnav li.active a,
+#jasdl-mainnav li.active a:hover,
+#jasdl-mainnav li.active a:active,
+#jasdl-mainnav li.active a:focus {
+	color: #fff;
+	background: url(../../images/mainnav-sep.gif) repeat-y right #5f9729;
+}
+
+/* Sub Nav ---*/
+#ja-subnav .main {
+	width: 970px;
+}
+
+#ja-subnav ul {
+	overflow: hidden;
+	background: #525253;
+	height: 28px;
+}
+
+#ja-subnav ul.active {
+	overflow: hidden;
+	background: #5f9729;
+}
+
+#ja-subnav ul li {
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid #666;
+}
+
+#ja-subnav ul.active li {
+	border-right: 1px solid #71a341;
+}
+
+#ja-subnav ul li a.hover, #ja-subnav ul li.active {
+	background: #525253;
+}
+
+#ja-subnav ul li.hover, #ja-subnav ul li.active {
+	background: #5f9729;
+}
+
+#ja-subnav ul.active li.hover, #ja-subnav ul.active li.active {
+	background: #525253;
+}
+
+#ja-subnav li a {
+	color: #e2e2e5;
+	padding: 0 20px;
+	line-height: 28px
+}
+
+#ja-subnav li a:hover,
+#ja-subnav li a:focus,
+#ja-subnav li a:active { color: #fff !important; }
+
+/* Sub Nav (lv2) ---*/
+#ja-subnav ul li ul {
+	background: #525253;
+	border: 1px solid #525253;
+	margin-top: -5px;
+}
+
+#ja-subnav ul li ul li { 
+	background: none;
+	border-top: 1px solid #666;
+	border-right: 0 !important;
+	padding: 0;
+}
+
+#ja-subnav ul li ul li:first-child { border: 0; }
+
+#ja-subnav ul li ul li a {
+	color: #f0f0f3;
+	padding: 5px 10px;
+}
+
+#ja-subnav ul li ul li a:hover,
+#ja-subnav ul li ul li a:focus,
+#ja-subnav ul li ul li a:active {
+	background: #313435;
+	color: #fff;
+}
+
+#ja-subnav ul li.active a.active,
+#ja-subnav ul li.active a.active:hover,
+#ja-subnav ul li.active a.active:active,
+#ja-subnav ul li.active a.active:focus {
+	color: #fff;
+}

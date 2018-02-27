@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension type="module" version="1.6.0" client="site" method="upgrade">
+	<name>Simple Image Gallery Module</name>
+	<author>JoomShaper.com</author>
+	<creationDate>May 2010</creationDate>
+	<copyright>Copyright (C) 2010 JoomShaper.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@joomxpert.com</authorEmail>
+	<authorUrl>www.JoomShaper.com</authorUrl>
+	<version>2.1.0</version>
+	<description>JoomShaper Simple Image Gallery Module - This module will show image gallery using SLIMBOX V1.71</description>
+	<files>
+		<filename module="mod_sp_simple_gallery">mod_sp_simple_gallery.php</filename>
+		<filename>helper.php</filename>
+		<filename>class.spThumbnail.php</filename>
+		<filename>index.html</filename>
+		<folder>tmpl/</folder>
+		<folder>scripts/</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+				<field name="uniqid" type="text" default="1" label="Module Uniq ID" description="Module uniq id" />
+				<field name="path" type="text" default="images/sampledata/parks/landscape" label="Gallery Path" description="Path" />
+				<field name="title" type="text" default="Simple Image Gallery" label="Title" description="Title to be displayed in the lightbox" />
+				<field name="thumbwidth" type="text" default="100" label="Thumbnail Width (in px)" description="Width of Thumbnail without px" />
+				<field name="thumbheight" type="text" default="100" label="Thumbnail Height (in px)" description="Height of Thumbnail without px" />
+				<field name="thumbratio" type="radio" default="1" label="Keep Thumbnail Aspect Ratio" description="">
+					<option value="0">No</option>
+					<option value="1">yes</option>
+				</field>
+				<field name="style" type="textarea" rows="10" cols="40" default="border:1px solid #DDD; margin:0 5px 10px 5px; padding:5px; background:#fff;" label="CSS" description="CSS" />
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="cache" type="list" default="1" label="Caching" description="Select whether to cache the content of this module">
+					<option value="1">Use global</option>
+					<option value="0">No caching</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

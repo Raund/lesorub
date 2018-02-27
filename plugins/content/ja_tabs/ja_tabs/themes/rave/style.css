@@ -1,0 +1,179 @@
+/*
+# ------------------------------------------------------------------------
+# JA Tabs Plugins for Joomla 1.5
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+*/
+.ja-tabswrap.rave {
+	background: #F2F2F2;
+	padding: 3px;
+}
+
+.ja-tabswrap.rave .container {
+	background: #fff;
+	border: solid 1px #ddd;
+}
+
+.rave ul li h3 {
+	background: none;
+	border: none;
+	font-weight: normal;
+	padding: 0px;
+	text-align: center;
+	margin: 0px;
+}
+
+.rave ul li.active h3 {
+	color: #9a2016;
+}
+/* JA Tabs top*/
+.rave .ja-tabs-title-top {
+	background: url(tabs-bg.png) repeat-x bottom center;
+}
+
+.rave .ja-tabs-title-top ul.ja-tabs-title li {
+	border: none;
+	background: none;
+	margin: 10px 0px;
+	border-left: solid 1px #ddd;
+	padding: 0px 10px;
+}
+
+.rave .ja-tabs-title-top ul.ja-tabs-title li.active {
+	border: none !important;
+}
+
+.rave .ja-tabs-title-top ul.ja-tabs-title li.first {
+	border-right: solid 1px #ddd;
+	border-left: none;
+}
+
+.rave .ja-tabs-title-top ul li.active h3 {
+	color: #9a2016;
+	background: url(tabs-active.png) no-repeat bottom center;
+	padding-bottom: 16px;
+}
+
+.rave div.ja-tab-subcontent {
+	margin: 0px 15px;
+}
+
+.rave .ja-tab-panels-top div.ja-tab-content {
+	padding: 10px 0px;
+}
+
+.rave .ja-tab-panels-top li {
+	padding: 10px 0px !important;
+	border-bottom: dotted 1px #dedede;
+	margin: 0px;
+	background: none !important;
+}
+
+.rave .ja-tab-panels-top li a {
+	color: #333;
+}
+
+.rave .ja-tab-panels-top li a:hover {
+	color: #9a2016;
+}
+
+.rave .ja-tab-panels-top li span {
+	font-size: 85%;
+	color: #888;
+}
+
+/* JA Tabs left*/
+.rave .ja-tabs-title-left ul.ja-tabs-title{
+	margin-bottom: 5px;
+}
+.rave .ja-tabs-title-left ul.ja-tabs-title li {
+	height: 26px;
+	border-right: solid 1px #dedede;
+	border-bottom: solid 1px #dedede;
+	background: none;
+	line-height: 26px;	
+}
+
+.rave .ja-tabs-title-left ul.ja-tabs-title li.active {
+	background: url(tabs-active-r.png) no-repeat right;	
+	border-right: none;
+}
+
+.rave .ja-tabs-title-left ul.ja-tabs-title li.last.active {
+	border-bottom: none;
+}
+
+.rave .ja-tabs-title-left ul.ja-tabs-title li h3 {
+	margin-top: 5px;	
+}
+
+/* JA Tabs right*/
+.rave .ja-tabs-title-right ul.ja-tabs-title{
+	margin-bottom: 5px;
+	top: 0px;
+}
+
+.rave .ja-tabs-title-right ul.ja-tabs-title li {
+	height: 26px;
+	border-left: solid 1px #dedede;
+	border-bottom: solid 1px #dedede;
+	background: none;
+	line-height: 26px;	
+}
+
+.rave .ja-tabs-title-right ul.ja-tabs-title li.active {
+	background: url(tabs-active-l.png) no-repeat left;	
+	border-left: none;
+}
+
+.rave .ja-tabs-title-right ul.ja-tabs-title li.last.active {
+	border-bottom: none;
+}
+
+.rave .ja-tabs-title-right ul.ja-tabs-title li h3 {
+	margin-top: 5px;	
+}
+
+/* JA Tabs bottom*/
+.rave .ja-tabs-title-bottom {
+	background: url(tabs-bg-bt.png) repeat-x top center;
+	height: 40px;
+	width: 100%;
+}
+
+.rave .ja-tabs-title-bottom ul.ja-tabs-title {
+	position: relative !important;
+}
+
+.rave .ja-tabs-title-bottom ul.ja-tabs-title li {
+	border: none;
+	background: none;
+	margin: 16px 0px 0px 0px;
+	border-left: solid 1px #ddd;
+	padding: 0px 10px;
+}
+.rave .ja-tabs-title-bottom ul li.active {
+	margin-top: 0px;
+}
+
+.rave .ja-tabs-title-bottom ul li.active h3 {
+	background: url(active-bottom.png) no-repeat top center;
+	padding-top: 16px;
+}
+
+.rave .ja-tabs-title-bottom ul.ja-tabs-title li.active {
+	border: none !important;
+}
+
+.rave .ja-tabs-title-bottom ul.ja-tabs-title li.first {
+	border-right: solid 1px #ddd;
+	border-left: none;
+}

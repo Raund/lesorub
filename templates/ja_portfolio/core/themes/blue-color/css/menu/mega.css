@@ -1,0 +1,29 @@
+/* lv - 0
+-----------------------------------*/
+/* Styling ---*/
+
+.ja-megamenu ul.level0 li.active {
+	background-color: #08a1ca;
+}
+
+.ja-megamenu ul.level0 li.over, ul.level0 li.haschild-over { 
+	background-color: #525253;
+}
+
+/* lv - 1 and below
+-----------------------------------*/
+/* Styling ---*/
+.ja-megamenu ul.level1 li.mega {
+	background-color: transparent;
+}
+
+.ja-megamenu ul.level1 li.first { background-image: none }
+
+.ja-megamenu ul.level1 li.over, ul.level1 li.haschild-over {
+	background-color: #313435;
+}
+
+ /* CHILD CONTENT
+-----------------------------------*/
+
+/* Grouped --- */

@@ -1,0 +1,73 @@
+/*
+# ------------------------------------------------------------------------
+# JA Portfolio Template
+# ------------------------------------------------------------------------
+# Copyright (C) 2004-2010 JoomlArt.com. All Rights Reserved.
+# @license - PHP files are GNU/GPL V2. CSS / JS are Copyrighted Commercial,
+# bound by Proprietary License of JoomlArt. For details on licensing, 
+# Please Read Terms of Use at http://www.joomlart.com/terms_of_use.html.
+# Author: JoomlArt.com
+# Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+# Redistribution, Modification or Re-licensing of this file in part of full, 
+# is bound by the License applied. 
+# ------------------------------------------------------------------------
+*/
+
+/* JOOMLA STYLE
+--------------------------------------------------------- */
+
+
+/* HEADER
+--------------------------------------------------------- */
+
+/* NAVIGATION
+--------------------------------------------------------- */
+span.has-image {
+	background-position: 5px 5px;
+}
+/* FOOTER
+--------------------------------------------------------- */
+body.handheld a.ja-tool-switchlayout, body.handheld a.ja-tool-switchlayout:hover, body.handheld a.ja-tool-switchlayout:active, body.handheld a.ja-tool-switchlayout:focus {
+	text-shadow: none;
+}
+/* MISC.
+--------------------------------------------------------- */
+
+/* COMPOMENTS.
+--------------------------------------------------------- */
+
+/* Ja Showcase ---*/
+.ja-showcase-left, .ja-showcase-right, .ja-showcase-center {
+	width: 100% !important;
+}
+
+.ja-showcase-img {
+	width: 220px !important;
+	height: 220px !important;
+}
+
+/* K2 ---*/
+div.subCategoryContainer {
+	width: 100% !important;
+}
+
+.portfolio-blog div.blog-post-date,
+.portfolio-blog div.catItemAuthor {
+	font-size: 92%;
+}
+
+.portfolio-blog div.catItemView {
+	padding: 0 10px 0 10px !important;
+}
+
+div.catItemHeader {
+	padding-left: 120px;
+}
+
+.portfolio-blog span.catItemImage img {
+	width: 280px !important;
+}
+
+.portfolio-blog span.itemImage img {
+	width: 170px !important;
+}

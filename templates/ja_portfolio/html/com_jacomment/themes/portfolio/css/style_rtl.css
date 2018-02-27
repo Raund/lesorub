@@ -1,0 +1,544 @@
+@charset "utf-8";
+/* CSS Document */
+html { direction: rtl; }
+
+#jac-sort {
+	right: auto;
+	left: 20px;
+}
+
+#plugin_embed a, #plugin_embed_reply a {
+	float: right;
+	margin: 0 0 5px 10px;
+}
+
+#jac-close-form {
+	background-position: left top;
+}
+
+#comment_as {
+	float: right;
+}
+
+#form1 {
+	float: left;
+}
+
+#jac-wrapper span.required {
+	margin-left: 0;
+	margin-right: 5px !important;
+}
+
+#jac-wrapper li span {
+	float: none;
+}
+
+#jac-wrapper .comment-action a span {
+	float: none;
+}
+
+#jac-wrapper .form-userdata span {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+#jac-new-captcha, .jac-subscribe {
+	float: right !important;
+	width: 255px;
+}
+
+#jac-refresh-image {
+	float: right;
+	margin-right: -22px !important;
+	margin-left: 0px;
+}
+
+#jac-new-captcha img {
+	float: right;
+}
+
+.type_captcha {
+	float: right;
+	margin: 0 10px 0 0
+}
+
+#jac-wrapper #jac_image_captcha {
+	margin-left: 10px;
+	margin-right: 0px;
+}
+
+.ja-captcha-img {
+	float: right !important;
+}
+
+.jac-addnew a {
+	float: right;
+}
+
+.jac-user-info .jac-avatar {
+	float: right;
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.jac-user-name-3 {
+	float: right;
+}
+
+.jac-show-report-3 {
+	float:left;
+	margin:0 0 0 5px;
+}
+
+.jac-div-reply {
+	float:right;
+	margin:0 10px 10px 0;
+}
+
+.jac-pagination .jac-display-limit {
+	float:left;
+	text-align:left;
+}
+
+#jac-close-form.active {
+	background-position: left -56px;
+}
+
+#whitebox div {
+	text-align: right !important;
+}
+
+/***********************/
+/* popup */
+#ja-popup {
+	left: 0;
+}
+
+#ja-popup-header h3.ja-popup-title {
+	float: right;
+}
+
+.jac-two-login #jac-login-joomla-form {
+	border-left: 1px dotted silver;
+	border-right: 0;
+	float: right;
+}
+
+#ja-popup-header #ja-close-button {
+	float: left;
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#jac-wrapper h2.componentheading {
+	background-position: right bottom;
+}
+/*
+------------------------*/
+#jac-sort a {
+	border-left: 1px solid #DEDEDE;
+	border-right: 0;
+}
+
+.jac-sort-by {
+	background-position: right bottom;
+}
+
+.jac-sort-by-active-desc {
+	background-position: right -37px;
+}
+
+.jac-sort-by-active-asc {
+	background-position: right -16px;
+}
+
+#jac-wrapper .jac-addnew a {
+	margin-left: 5px;
+	margin-right: 0;
+	float: right;
+}
+
+#jac-wrapper .jac-addnew #jac_span_post_new_comment {
+	margin-left: 5px;
+	margin-right: 0;
+	float: right;
+}
+
+#jac-wrapper li div span label {
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+#jac-wrapper li .datepicker {
+	margin-left: 5px;
+	margin-right: 0;
+	float: right;
+}
+
+#jac-wrapper .type_captcha label{
+	margin-right: 0px;
+}
+
+#jac-wrapper input.other {
+	margin: 0 250px 8px 0;
+}
+
+#jac-wrapper li.buttons input, #jac-wrapper input.btTxt{
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+#jac-wrapper input.btTxt{
+	float: right;
+}
+
+#jac-wrapper input#btlCancelComment {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#jac-wrapper .buttons .marker {
+	padding-left: 10px;
+	padding-right: 0;
+	left: 0;
+	right: auto;
+}
+
+#jac-wrapper .instruction {
+	left: auto;
+	right: 0;
+	margin-left: 0;
+	margin-right: 10px;
+}
+
+#jac-wrapper li.focused .instruction, #jac-wrapper li:hover .instruction {
+	left: auto;
+	right: 100%;
+}
+
+#jac-wrapper .form-userdata span{
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#jac-wrapper li span {
+	float: right;
+}
+
+#jac-wrapper li.jac-act-button {
+	right: auto;
+	left: 2px;
+}
+
+#jac-wrapper .form-actions .form-act-smiley a {
+	background-position: right top;	
+}
+
+#jac-wrapper .form-actions .form-act-filed-open a {
+	background-position: right -32px;	
+}
+
+#jac-wrapper .form-actions .form-act-filed-close a {
+	background-position: right -16px;
+}
+
+#jac-wrapper .form-actions .form-act-attach a,
+#jac-wrapper .form-actions .form-act-utube a ,
+#jac-wrapper .form-actions .form-act-spell a ,
+#jac-wrapper .form-actions .jac-bbcode-bold-text a,
+#jac-wrapper .form-actions .jac-bbcode-italic-text a,
+#jac-wrapper .form-actions .jac-bbcode-large a,
+#jac-wrapper .form-actions .jac-bbcode-horizontal-rule a,
+#jac-wrapper .form-actions .jac-bbcode-underline-text a,
+#jac-wrapper .form-actions .jac-bbcode-line-through-text a,
+#jac-wrapper .form-actions .jac-bbcode-subscript a,
+#jac-wrapper .form-actions .jac-bbcode-superscript a,
+#jac-wrapper .form-actions .jac-bbcode-quotation a,
+#jac-wrapper .form-actions .jac-bbcode-link a,
+#jac-wrapper .form-actions .jac-bbcode-image a,
+#jac-wrapper .form-actions .jac-bbcode-medium a,
+#jac-wrapper .form-actions .jac-bbcode-bullet-list-text a {
+	/*background-position: right top;	*/
+}
+
+#jac-wrapper .form-actions .form-act-bbcode-status {
+	float: right;
+}
+
+#jac-wrapper .form-actions .form-act-bbcode {
+	float: right;
+}
+
+#jac-wrapper .form-actions .form-act-filed-close,
+#jac-wrapper .form-actions .form-act-filed-open {
+	right: auto;
+	left: 0;
+}
+
+#jac-wrapper .form-actions li.for-count-text {
+	left: 40px !important;
+	right: auto !important;
+}
+
+#jac-wrapper .comment-contentmain {
+	padding-left: 10px;
+	padding-right: 80px;
+}
+
+#jac-wrapper ol.comment-list div.jac-childen-array {
+	padding-left: 0;
+	padding-right: 65px;
+}
+
+#jac-wrapper .avatar {
+	right: 10px;
+	left: auto;
+}
+
+#jac-wrapper .avatar .jac-provider-icon-3,
+#jac-wrapper .avatar .jac-provider-icon-2,
+#jac-wrapper .avatar .jac-provider-icon-1 {
+	left: 0;
+	right: auto;
+}
+
+#jac-wrapper .comment-heading {
+	width: 100%;
+	zoom: 1;
+}
+
+#jac-wrapper .comment-heading a.comment-user,
+#jac-wrapper .comment-heading span.comment-user {
+	float: right;
+}
+
+#jac-wrapper .comment-heading a.comment-user span {
+	float: none;
+}
+
+#jac-wrapper .comment-heading span {
+	padding-right: 6px;
+	padding-left: 5px;
+	float: right;
+	border-left: 0;
+}
+
+#jac-wrapper .comment-heading a.comment-user span {
+	padding-right: 0;
+}
+
+#jac-wrapper .comment-quotecontent {
+	padding-right: 25px;
+	padding-left: 20px;
+	background-position: 98% top;
+}
+
+#jac-wrapper .comment-quoteclose {
+	background-position: left bottom;
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+#jac-wrapper .comment-ranking {
+	float: left;
+	zoom: 1;
+	width: 106px;
+}
+
+#jac-wrapper .jac-vote-comment {
+	float: left;
+	padding-right: 6px;
+	padding-left: 0;
+}
+
+#jac-wrapper .comment-ranking a {
+	float: right;
+	margin-right: 5px;
+	margin-left: 0;
+}
+
+#jac-wrapper .comment-ranking a.voteup-btn {
+	background-position: right top;
+}
+
+#jac-wrapper .comment-ranking a.voteup-btn:hover {
+	background-position: right -18px;
+}
+
+#jac-wrapper .comment-ranking a.votedown-btn {
+	background-position: left 0;
+}
+
+#jac-wrapper .comment-ranking a.votedown-btn:hover {
+	background-position: left -18px;
+}
+
+/* ALREADY VOTED */
+#jac-wrapper .comment-ranking span.voteup-btn,
+#jac-wrapper .comment-ranking span.votedown-btn {
+	float: left;
+}
+
+#jac-wrapper .comment-ranking span.voteup-btn {
+	background-position: left -36px;
+}
+
+#jac-wrapper .comment-ranking span.votedown-btn {
+	background-position: right -36px;
+}
+
+/* COMMENT REPORT --- */
+#jac-wrapper .comment-report {
+	float: left;
+	padding-right: 6px;
+	padding-left: 5px;
+	border-left: 0;
+	width: 16px;
+}
+
+#jac-wrapper .comment-report a {
+	float: right;
+}
+
+#jac-wrapper .comment-report a.report-btn {
+	background-position: right top;
+}
+
+#jac-wrapper .comment-report a.report-btn:hover {
+	background-position: right bottom;
+	text-decoration: none;
+}
+
+#jac-wrapper .comment-report span.report-btn {
+	float: right;
+	background-position: right bottom;
+}
+
+#jac-wrapper .comment-report .jac-undo-report {
+	background-position: right bottom;
+	float: left;
+	margin-right: 5px;
+	margin-left: 0;
+}
+
+#jac-wrapper .comment-menu {
+	float: none;
+	display: inline-block;
+	border-left: 0;
+}
+
+#jac-wrapper .comment-menu .menu-content ul {}
+
+#jac-wrapper .comment-admin {
+	float: left;
+	width: auto;
+}
+
+#jac-wrapper .comment-heading .status-btn {
+	float: none;
+	display: inline-block;
+}
+
+#jac-wrapper li.comment-hasreply .comment-replycontent {
+	background-position: right 15px;
+	padding-right: 20px;
+	padding-left: 0;
+}
+
+#jac-wrapper .comment-byadmin .comment-heading .comment-user { /* hilite for admin name */
+	padding-left: 45px;
+	padding-right: 0;
+	margin-left: 4px;
+	margin-right: 0;
+	background-position: left 5px;
+}
+
+#jac-wrapper .comment-byyou .comment-heading a.comment-user { /* hilite for admin name */
+	padding-left: 45px;
+	padding-right: 0;
+	margin-left: 4px;
+	margin-right: 0;
+	background-position: left 5px;
+}
+
+#jac-wrapper ol.comment-list li.comment-byothers .comment-heading a.comment-user { /* hilite for admin name */
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#jac-wrapper .comment-ispending .badge-pending {
+	left: auto;
+	right: 0;
+}
+
+.left { float: right; }
+.right { float: left; }
+
+#jac-msg-succesfull {
+	left: auto;
+	right: 50%;
+}
+
+#jac-loader {
+	left: 50%;
+	right: auto;
+}
+
+#jac-wrapper #jac-upload .jac-upload-form {
+	float :right;
+	padding-left: 15px;
+	padding-right: 0;
+}
+
+#jac-wrapper #result_upload {
+	float: right;
+}
+
+#jac-wrapper .form-upload #form1 {
+	float: right;
+}
+
+.comment-quote {
+	float: left;
+}
+
+#jac-container-comment li {
+	margin-right: 0;
+}
+
+.comment-reply, .comment-showreply {
+	float: right;
+}
+
+#jac-wrapper .comment-heading span.comment-user {
+	padding-right: 0;
+	padding-left: 5px;
+}
+
+h2.contentheading {
+	background-position: right bottom;
+}
+
+a.jac-links {
+	float: left;
+}
+
+/* */
+#jac-wrapper #jac-container-textarea {
+	overflow:hidden;
+	position:relative;
+}
+
+#jac-refresh-image  {
+	left: 0;
+	margin-right: 0;
+}
+
+#jac-wrapper .form-userdata span.jac-form-guest {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+#jac-wrapper .pagination {
+	margin-right: 0 !important;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout body-class="handheld iphone">
+	<name>Iphone</name>
+	<description>Default layout for Iphone</description>
+	<!--Extra css load for this layout-->
+	<stylesheets>
+		<file>css/handheld/layout.css</file>
+		<file>css/handheld/template.css</file>
+		<file>css/handheld/iphone.css</file>
+	</stylesheets>
+	<scripts>
+		<file>js/iphone.js</file>
+	</scripts>
+	<blocks name="top" style="xhtml">
+		<block name="mainnav" type="iphone/mainnav"></block>
+		<block name="header" type="handheld/header"></block>
+	</blocks>
+	<blocks name="middle">
+	</blocks>
+	<blocks name="bottom" style="xhtml">
+		<block name="footer" type="handheld/footer"></block>
+	</blocks>
+</layout>
