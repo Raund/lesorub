@@ -1,155 +1,159 @@
-﻿* {
-	margin: 0;
-	padding: 0;
-}
-
-html {
-	height:100%;
-	width: 100%;
-}
-
-body {
-	background: url('img/bg.jpg') no-repeat right bottom; 
-	background-attachment: fixed;
-	min-width: 900px;
-	font-family: Arial;
-	font-size: 16px;
-    color: #404119;
-	float:left;
-}
-
-#warp {
-	background: url('img/spartan.png') no-repeat right bottom;
-	position:relative;
-	width:100%;
-	float:left;
-}
-
-.logines {
-    font-size: 13px;
-    color: #999;
-	background: #fff;
-	padding: 6px 14px 10px 10px;
-	width: 120px;
-}
-
-.logines a {
-    font-size: 12px;
-}
-
-
-a {
-	color: #222222;
-}
-
-h4 {
-margin-bottom:8px;
-}
-
-img {
-	border: 0;
-}
-
-#item-124 {
-display:none;
-}
-
-#slogan {
-text-align: right;
-padding: 15px 200px 0 0;
-font-style: italic;
-color: #996600;
-}
-
-ul {
- list-style: none;
-}
-
-#left-side {
-	width: 250px;
-	float: left;
-	background: #fff;
-	padding: 40px 0 75px 0;
-}
-
-#left-side .logo {
-	margin: 0 0 28px 57px;
-}
-
-#left-side .nav {
-	text-align: center;
-}
-
-#left-side .menu {
-	margin: 8px 0 80px 40px;
-	font-size: 17px;
-}
-
-#left-side .menu li {
-	margin: 0 0 9px 0;
-}
-
-#left-side .menu .active {
-	font-style: italic;
-}
-
-#left-side .menu .active a {
-	text-decoration: none;
-	color: #ef6f02;
-}
-
-#left-side .contact {
-	margin: 0 27px 0 25px;
-	border-top: 2px solid #60622c;
-	padding: 26px 0 0 16px;
-}
-
-#content {
-	overflow: hidden;
-	padding: 87px 250px 0 58px;
-	min-width: 300px;
-	
-}
-
-#content h2 {
-	margin-bottom: 20px;
-	font-style: italic;
-}
-
-#content p {
-	margin-bottom: 20px;
-}
-
-#right {
-position:absolute;
-top:40px;
-right:10px;
-width: 180px;
-background: #fff;
-margin:90px 0 0 900px;
-padding: 20px 10px 30px 10px;
-font-size:15px;
-}
-
-#right .menu li {
-margin-bottom:3px;
-}
-
-#right .menu .active {
-font-style: italic;
-}
-
-#right .menu .active a {
-	text-decoration: none;
-	color: #ef6f02;
-}
-
-.item-page {
-font-size: 15px;
-line-height: 20px;
-min-height: 600px;
-}
-
-.rec { margin: 7px 7px 0 10px;  font-size: 11px;}
-
-#content .item-page img {max-width:450px; margin:0 15px 15px 0;}
+﻿* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: url('img/bg.jpg') no-repeat right bottom;
+  background-attachment: fixed;
+  min-width: 900px;
+  font-family: Arial;
+  font-size: 16px;
+  color: #404119;
+  float: left;
+}
+
+#warp {
+  background: url('img/spartan.png') no-repeat right bottom;
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+.logines {
+  font-size: 13px;
+  color: #999;
+  background: #fff;
+  padding: 6px 14px 10px 10px;
+  width: 120px;
+}
+
+.logines a {
+  font-size: 12px;
+}
+
+a {
+  color: #222222;
+}
+
+h4 {
+  margin-bottom: 8px;
+}
+
+img {
+  border: 0;
+}
+
+#item-124 {
+  display: none;
+}
+
+#slogan {
+  text-align: right;
+  padding: 15px 200px 0 0;
+  font-style: italic;
+  color: #996600;
+}
+
+ul {
+  list-style: none;
+}
+
+#left-side {
+  width: 250px;
+  float: left;
+  background: #fff;
+  padding: 40px 0 75px 0;
+}
+
+#left-side .logo {
+  margin: 0 0 28px 57px;
+}
+
+#left-side .nav {
+  text-align: center;
+}
+
+#left-side .menu {
+  margin: 8px 0 80px 40px;
+  font-size: 17px;
+}
+
+#left-side .menu li {
+  margin: 0 0 9px 0;
+}
+
+#left-side .menu .active {
+  font-style: italic;
+}
+
+#left-side .menu .active a {
+  text-decoration: none;
+  color: #ef6f02;
+}
+
+#left-side .contact {
+  margin: 0 27px 0 25px;
+  border-top: 2px solid #60622c;
+  padding: 26px 0 0 16px;
+}
+
+#content {
+  overflow: hidden;
+  padding: 87px 250px 0 58px;
+  min-width: 300px;
+}
+
+#content h2 {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+#content p {
+  margin-bottom: 20px;
+}
+
+#right {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  width: 180px;
+  background: #fff;
+  margin: 90px 0 0 900px;
+  padding: 20px 10px 30px 10px;
+  font-size: 15px;
+}
+
+#right .menu li {
+  margin-bottom: 3px;
+}
+
+#right .menu .active {
+  font-style: italic;
+}
+
+#right .menu .active a {
+  text-decoration: none;
+  color: #ef6f02;
+}
+
+.item-page {
+  font-size: 15px;
+  line-height: 20px;
+  min-height: 600px;
+}
+
+.rec {
+  margin: 7px 7px 0 10px;
+  font-size: 11px;
+}
+
+#content .item-page img {
+  max-width: 450px;
+  margin: 0 15px 15px 0;
+}
